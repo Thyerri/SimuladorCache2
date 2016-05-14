@@ -43,3 +43,4 @@ for linha in arquivoTxt:
 
 fechaArquivo(arquivoTxt)
 
+tranalho
