@@ -34,13 +34,11 @@ for linha in arquivoTxt:
 
 
     strBinLinha = str(binLinha)
-    strBinLinha = strBinLinha.format(32)
-
+    strBinLinha = str((binLinha)[2:]).zfill(esquerdaBits)
 
     print(strBinLinha)
-
+    print (len(strBinLinha))
 
 
 fechaArquivo(arquivoTxt)
 
-tranalho
